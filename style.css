@@ -3,9 +3,10 @@
     margin: 0;
 }
 img.po {
+    margin: 1em;
     border-radius: 50%;
     width: 130px;
-    box-shadow: gray;
+    box-shadow: 2px 2px 5px 0px gray;
 }
 
 img.fl {
@@ -46,6 +47,7 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 p {
     font-size: 12px;
     padding: 1em;
