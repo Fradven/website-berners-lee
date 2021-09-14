@@ -58,20 +58,20 @@ main section {
     grid-template-columns: min-content 1fr;
     grid-template-rows: min-content 1fr;
     grid-template-areas: 
-        "img title"
-        "img description"
+        "a b"
+        "a c"
         ;
 }
     section img {
-        grid-area: img;
+        grid-area: a;
     }
 
     section h3 {
-        grid-area: title;
+        grid-area: b;
     }
 
     section p {
-        grid-area: description;
+        grid-area: c;
     }
 
 .button {
