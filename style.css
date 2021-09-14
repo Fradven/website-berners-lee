@@ -5,6 +5,7 @@
 img.po {
     border-radius: 50%;
     width: 130px;
+    box-shadow: gray;
 }
 
 img.fl {
@@ -40,7 +41,11 @@ h2 {
 h3 {
     font-size: 17px;
 }
-
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 p {
     font-size: 12px;
     padding: 1em;
